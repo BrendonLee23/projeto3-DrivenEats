@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous' 'Roboto';
+    font-style: normal;
+}
+
+.header {
+    background-color: #CF2B2B;
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-top: 5px;
+}
+
+.h1-top {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.p-top {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.main {
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 1026px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.food-nav {
+    background-color: purple;
+    width: 410px;
+    height: 190px;
+}
+
+.title-food {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+
+.drink {
+    background-color: #CF2B2B;
+    width: 410px;
+    height: 260px;
+}
+
+.title-drink {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+
+.sweet {
+    background-color: #440c9e;
+    width: 410px;
+    height: 260px;
+}
+
+.title-sweet {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #FFFFFF;
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-area {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.p-bot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
