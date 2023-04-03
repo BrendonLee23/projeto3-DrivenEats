@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,86 +22,84 @@
     <div class="main">
         <h1 class="title">Primeiro, seu prato</h1>
         <div class="food-area">
-            <div class="nav check-border">
+            <div data-test="dish" id="item-1" onclick="selecionarPrato(id)" class="nav">
                 <img class="img" src="./Imagens/frango_yin_yang.png" alt="prato-1">
-                <h1 class="h1">Frango Yin Yang</h1>
+                <h1 data-test="item-name" id="nome-1" class="h1">Frango Yin Yang</h1>
                 <h2 class="h2">Com Salada e Batata</h2>
-                <p class="p">R$ 14,90</p>
-                <img class="check" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-1" class="p">R$ 14,00</p>
+                <img id="check-1" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav">
+            <div data-test="dish" id="item-2" onclick="selecionarPrato(id)" class="nav">
                 <img class="img" src="./Imagens/prato-carne.jpg" alt="prato-2">
-                <h1 class="h1">Carne No Jutso</h1>
+                <h1 data-test="item-name" id="nome-2" class="h1">Carne No Jutso</h1>
                 <h2 class="h2">Vinagrete e Feijão</h2>
-                <p class="p">R$ 19,90</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-2" class="p">R$ 19,00</p>
+                <img id="check-2" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav">
+            <div data-test="dish" id="item-3" onclick="selecionarPrato(id)" class="nav">
                 <img class="img" src="./Imagens/prato-peixe.avif" alt="prato-3">
-                <h1 class="h1">Peixe No Kyojin</h1>
+                <h1 data-test="item-name" id="nome-3" class="h1">Peixe No Kyojin</h1>
                 <h2 class="h2">Com Salada</h2>
-                <p class="p">R$ 17,90</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-3" class="p">R$ 17,00</p>
+                <img id="check-3" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
         </div>
         <h1 class="title">Agora, sua bebida</h1>
         <div class="food-area">
-            <div class="nav">
+            <div data-test="drink" id="item-4" onclick="selecionarBebida(id)" class="nav">
                 <img class="img" src="./Imagens/coca-cola.png" alt="bebida-1">
-                <h1 class="h1">Coquinha gelada</h1>
+                <h1 data-test="item-name" id="nome-4" class="h1">Coquinha gelada</h1>
                 <h2 class="h2">Lata 350ml</h2>
-                <p class="p">R$ 6,00</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-4" class="p">R$ 6,00</p>
+                <img id="check-4" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav check-border">
+            <div data-test="drink" id="item-5" onclick="selecionarBebida(id)" class="nav ">
                 <img class="img" src="./Imagens/antartica.avif" alt="bebida-2">
-                <h1 class="h1">Guaraná Antartica</h1>
+                <h1 data-test="item-name" id="nome-5" class="h1">Guaraná Antartica</h1>
                 <h2 class="h2">Lata 350ml</h2>
-                <p class="p">R$ 5,00</p>
-                <img class="check" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-5" class="p">R$ 5,00</p>
+                <img id="check-5" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav">
+            <div data-test="drink" id="item-6" onclick="selecionarBebida(id)" class="nav">
                 <img class="img" src="./Imagens/soda.webp" alt="bebida-3">
-                <h1 class="h1">Soda Limonada</h1>
+                <h1 data-test="item-name" id="nome-6" class="h1">Soda Limonada</h1>
                 <h2 class="h2">Lata 350ml</h2>
-                <p class="p">R$ 4,00</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-6" class="p">R$ 4,00</p>
+                <img id="check-6" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
         </div>
         <h1 class="title">Por fim, sua sobremesa</h1>
         <div class="food-area">
-            <div class="nav check-border">
+            <div data-test="dessert" id="item-7" onclick="selecionarDoce(id)" class="nav ">
                 <img class="img" src="./Imagens/pudim.png" alt="doce-1">
-                <h1 class="h1">Pudim</h1>
+                <h1 data-test="item-name" id="nome-7" class="h1">Pudim</h1>
                 <h2 class="h2">Pudin Pequeno</h2>
-                <p class="p">R$ 7,90</p>
-                <img class="check" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-7" class="p">R$ 7,00</p>
+                <img id="check-7" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav">
+            <div data-test="dessert" id="item-8" onclick="selecionarDoce(id)" class="nav">
                 <img class="img" src="./Imagens/brigadeiro.webp" alt="doce-2">
-                <h1 class="h1">Brigadeiro</h1>
+                <h1 data-test="item-name" id="nome-8" class="h1">Brigadeiro</h1>
                 <h2 class="h2">3 Unidades</h2>
-                <p class="p">R$ 6,90</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-8" class="p">R$ 6,00</p>
+                <img id="check-8" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
-            <div class="nav">
+            <div data-test="dessert" id="item-9" onclick="selecionarDoce(id)" class="nav">
                 <img class="img" src="./Imagens/mousse.webp" alt="doce-3">
-                <h1 class="h1">Mousse</h1>
+                <h1 data-test="item-name" id="nome-9" class="h1">Mousse</h1>
                 <h2 class="h2">Sabor Maracujá</h2>
-                <p class="p">R$ 8,90</p>
-                <img class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
+                <p data-test="item-price" id="preço-9" class="p">R$ 8,00</p>
+                <img id="check-9" class="check escondido" src="./Imagens/Vector (3).svg" alt="Check">
             </div>
         </div>
-        <div class="footer">
-            <div class="button-area escondido">
+        <footer class="footer">
+            <button data-test="order-btn" disabled onclick="send()" id="finalizar" class="button-area">
                 <p class="p-bot">Selecione os 3 itens para fechar o pedido</p>
-            </div>
-            <div class="button-check">
-                <p class="p-check ">Fechar Pedido</p>
-            </div>
-        </div>
+            </button>
+        </footer>
 
-        <script src="scripts.js"></script>
+        <script src="./assets/JS/scripts.js"></script>
 </body>
 
 </html>
+
