@@ -8,7 +8,6 @@ body {
 }
 
 .header {
-
     background: #CF2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 414px;
@@ -39,11 +38,6 @@ body {
     color: #FFFFFF;
 }
 
-
-
-
-
-
 .main {
     background-color: #E5E5E5;
     width: 414px;
@@ -53,6 +47,7 @@ body {
     justify-content: center;
     gap: 15px;
 }
+
 .title {
     font-family: 'Righteous';
     font-style: normal;
@@ -64,22 +59,41 @@ body {
     margin-left: 21px;
     margin-bottom: -8px;
 }
+
 .food-area {
     display: flex;
     padding-left: 20px;
     width: auto;
-    overflow:auto;
-
+    overflow: auto;
 }
+
 .nav {
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     width: 300px;
     height: 216px;
     margin-right: 18px;
-    padding: 14px
+    padding: 14px;
 }
+
+.check-border {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px;
+    width: 300px;
+    height: 216px;
+    margin-right: 18px;
+    padding: 14px;
+}
+
+.img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+}
+
 .h1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -89,6 +103,7 @@ body {
     color: #333333;
     margin-top: 10px;
 }
+
 .h2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -98,6 +113,7 @@ body {
     color: #A6A6A6;
     margin-top: 8px;
 }
+
 .p {
     font-family: 'Roboto';
     font-style: normal;
@@ -107,7 +123,6 @@ body {
     color: #000000;
     margin-top: 8px;
 }
-
 
 .footer {
     background-color: #FFFFFF;
@@ -141,4 +156,35 @@ body {
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+}
+
+.button-check {
+    width: 364px;
+    height: 61px;
+    background: #32B72F;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.p-check {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
+.check {
+    margin-left: 130px;
+}
+
+.escondido {
+    display: none
 }
